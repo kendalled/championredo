@@ -1931,7 +1931,7 @@ input, select, textarea {
 	input[type="button"],
 	button,
 	.button {
-		background-color: transparent;
+		background-color: #f1f1f1;
 		box-shadow: inset 0 0 0 1px rgba(99, 116, 133, 0.25);
 		color: #0294d6 !important;
 	}
@@ -1945,7 +1945,7 @@ input, select, textarea {
 		button:focus,
 		.button:hover,
 		.button:focus {
-			background-color: rgba(99, 116, 133, 0.075);
+			background-color: #ccc;
 		}
 
 		input[type="submit"]:active,
@@ -4176,12 +4176,6 @@ input, select, textarea {
 
 				#footer .contact li:after {
 					background-color: rgba(99, 116, 133, 0.25);
-					bottom: 0;
-					content: '';
-					height: 1px;
-					left: -4em;
-					position: absolute;
-					width: 8em;
 				}
 
 				#footer .contact li:last-child {
